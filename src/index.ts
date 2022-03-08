@@ -30,7 +30,7 @@ app.all('*', async () => {
   throw new Error('Route Not Found...');
 });
 
-// Start server :)
+// Start server (:
 const start = async () => {
   try {
     await mongoose.connect(`mongodb+srv://kelechi:0123456789@learnmongodb.quoae.mongodb.net/FlipoverDB?retryWrites=true&w=majority`, {
